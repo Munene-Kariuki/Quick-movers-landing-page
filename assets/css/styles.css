@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav > .links {
+  margin: 15px;
+}
+
+nav > .links > ul > li {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+}
+
+nav > .links > ul > li > .logIn {
+  padding: 5px;
+  background-color: rgb(246, 238, 60);
+  color: white;
+}
+
+nav > .links > ul > li > .logIn2 {
+  padding: 5px;
+  background-color: black;
+  color: rgb(246, 238, 60);
+}
+.introduction > .header > .head {
+  color: rgb(246, 238, 60);
+  font-size: 40px;
+
+}
