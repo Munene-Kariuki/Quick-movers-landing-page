@@ -108,7 +108,7 @@ nav > .links > ul > li > .logIn2 {
 }
 #topMovers {
   background-color: rgb(245,245,245);
-  margin-bottom: 80px;
+  height: 1250px;
 }
 #topMovers > .header {
   padding: 100px;
@@ -133,9 +133,29 @@ nav > .links > ul > li > .logIn2 {
   background: linear-gradient(to right, rgb(5, 5, 5) 0%, rgb(27, 18, 2) 100%);
   padding: 50px;
 }
-#footer > .rectangle {
-  background-color: black;
-  width: 500px;
+#footer > .header {
+  padding-left: 80px;
 }
+#footer > .header > .rect {
+  background-color: black;
+  width: 90%;
+  height: 2px;
+  margin-top: 50px;
+}
+#footer > .footer-body {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  color: white;
+}
+#footer > .footer-body > .icons > ul > li {
+  padding-top: 40px;
+  display: inline-block;
+  justify-content: space-evenly;
+}
+#footer > .footer-body > .column > ul > li {
+  display: block;
+}
+
 
 
