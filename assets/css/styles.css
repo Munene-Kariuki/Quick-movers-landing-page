@@ -108,6 +108,7 @@ nav > .links > ul > li > .logIn2 {
 }
 #topMovers {
   background-color: rgb(245,245,245);
+  margin-bottom: 80px;
 }
 #topMovers > .header {
   padding: 100px;
@@ -122,8 +123,19 @@ nav > .links > ul > li > .logIn2 {
 
 #topMovers > .first-row > .cards {
   border-radius: 20px;
+  box-shadow: rgb(225, 225, 225) 0px 0px 0px 0px inset;
 }
 #topMovers > .first-row > .cards >table {
   display: flex;
   justify-content: space-evenly;
 }
+#footer {
+  background: linear-gradient(to right, rgb(5, 5, 5) 0%, rgb(27, 18, 2) 100%);
+  padding: 50px;
+}
+#footer > .rectangle {
+  background-color: black;
+  width: 500px;
+}
+
+
