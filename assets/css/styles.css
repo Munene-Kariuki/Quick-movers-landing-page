@@ -106,3 +106,24 @@ nav > .links > ul > li > .logIn2 {
   padding-bottom: 50px;
   color: gray;
 }
+#topMovers {
+  background-color: rgb(245,245,245);
+}
+#topMovers > .header {
+  padding: 100px;
+}
+#topMovers > .first-row {
+  display: flex;
+  /* height: 50vh; */
+  justify-content: space-evenly;
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+#topMovers > .first-row > .cards {
+  border-radius: 20px;
+}
+#topMovers > .first-row > .cards >table {
+  display: flex;
+  justify-content: space-evenly;
+}
