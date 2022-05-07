@@ -13,8 +13,10 @@ body {
   background-image: url(../images/moving\ 1.png);
   background-size: cover;
   height: 100vh;
-  
+
 }
+
+/* navbar */
 nav {
   display: flex;
   justify-content: center;
@@ -41,6 +43,8 @@ nav > .links > ul > li > .logIn2 {
   background-color: black;
   color: rgb(246, 238, 60);
 }
+
+/* introduction */
 .introduction > .header > .head {
   color: rgb(246, 238, 60);
   font-size: 50px;
@@ -55,4 +59,50 @@ nav > .links > ul > li > .logIn2 {
   padding-left: 190px;
   color: white;
   font-family: 'Poppins';
+}
+
+/* cut the hustle */
+#cutHustle {
+  margin-top: 70px;
+  margin-bottom: 35px
+}
+
+#cutHustle > .hustle {
+  display: flex;
+}
+#cutHustle > .hustle > .leftside, .rightside{
+  width: 50%;
+}
+#cutHustle > .hustle > .leftside{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cutHustle > .hustle > .rightside{
+  padding-left: 60px;
+  color: black;
+  padding-top: 200px;
+
+}
+#cutHustle > .hustle > .leftside > img {
+  max-width: 100%;
+  height: auto;
+}
+.rectangle {
+  height: 2px;
+  width: 80px;
+  background: linear-gradient(to right, rgb(237,185,91) 0%, rgb(82,82,80) 100%);
+  margin-bottom: 15px;
+}
+#cutHustle > .hustle > .rightside > h1 {
+  padding-bottom: 15px;
+}
+#cutHustle > .hustle > .rightside > button {
+  padding: 7px;
+  background-color: black;
+  color: rgb(246, 238, 60);
+}
+#cutHustle > .hustle > .rightside > p {
+  padding-bottom: 50px;
+  color: gray;
 }
