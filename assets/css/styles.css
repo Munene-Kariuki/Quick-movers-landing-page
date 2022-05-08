@@ -33,8 +33,7 @@ nav > .links > ul > li {
 }
 
 nav > .links > ul > li > .logIn {
-  padding: 5px;
-  background-color: rgb(246, 238, 60);
+  background-color: black;
   color: white;
 }
 
@@ -97,10 +96,13 @@ nav > .links > ul > li > .logIn2 {
 #cutHustle > .hustle > .rightside > h1 {
   padding-bottom: 15px;
 }
-#cutHustle > .hustle > .rightside > button {
-  padding: 7px;
+#cutHustle > .hustle > .rightside > .learn {
   background-color: black;
   color: rgb(246, 238, 60);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 #cutHustle > .hustle > .rightside > p {
   padding-bottom: 50px;
@@ -117,7 +119,6 @@ nav > .links > ul > li > .logIn2 {
 }
 #topMovers > .first-row {
   display: flex;
-  /* height: 50vh; */
   justify-content: space-evenly;
   padding-top: 80px;
   padding-bottom: 0px;
