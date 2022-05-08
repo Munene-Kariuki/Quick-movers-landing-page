@@ -242,8 +242,12 @@ nav > .links > ul > li {
 }
 #footer > .header {
   padding-left: 80px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+
 }
-#footer > .header > .rect {
+#footer >.rect {
   background-color: black;
   width: 90%;
   height: 2px;
