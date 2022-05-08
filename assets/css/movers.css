@@ -32,16 +32,76 @@ nav > .links > ul > li {
   color: white;
   padding-top: 20px;
 }
-.description > ul > {
+
+#display {
+  background-color: rgb(245, 245, 245);
+}
+.profile {
   display: flex;
-  /* justify-content: space-evenly; */
 }
-.description > ul > .image {
-  display: inline-block;
+.profile > .pic, .description{
+  width: 50%;
 }
-.description > ul > .image > img {
+.profile > .pic > img {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+.profile > .description > ul > li {
+  display: block;
+}
+.description {
+  margin: 50px;
+  padding: 30px;
+  background-color: rgb(255, 255, 255);
+  width: 450px;
+  height: 400px;
+}
+.description > ul > {
+  border-radius: 5px;
+}
+.image, .name, .phone, .email {
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 5px;
+  width: 300px;
+}
+.intrest {
+  border: 2px solid gray;
+  border-radius: 5px;
+  margin: 10px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 30px;
+  width: 300px;
+}
+.image {
+  /* display: flex; */
+  height: 60px;
+  padding-top: 15px;
+  padding-left: 10px;
+  background-color: rgb(245, 245, 245);
+}
+.image > img, p {
+  width: 50%;
+}
+.image > p {
+  position: relative;
+  left: 70px;
+  bottom: 40px;
+}
+.image > img {
   vertical-align: middle;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%
 }
+.description > ul > li > .button {
+  background-color: black;
+  width: 295px;
+  padding: 15px;
+  margin-left: 15px;
+  border: none;
+}
+
