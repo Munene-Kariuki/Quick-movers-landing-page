@@ -33,7 +33,7 @@ nav > .links > ul > li {
   padding-top: 20px;
 }
 
-/* dispalay section */
+/* display section */
 
 #display {
   background-color: rgb(245, 245, 245);
@@ -197,4 +197,69 @@ nav > .links > ul > li {
 #features > .about > ul > li{
   display: inline-block;
   justify-content: space-between;
+}
+
+/* similar listings */
+
+#listings > .header > .rect {
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(to right, rgb(237,185,91) 0%, rgb(82,82,80) 100%);
+  margin-left: 50px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+#listings > .header > h2 {
+ margin-left: 50px;
+ margin-bottom: 30px;
+}
+.cards {
+  border-radius: 20px;
+  box-shadow: rgb(225, 225, 225) 0px 0px 0px 0px inset;
+  margin: 30px;
+}
+.cards >table {
+  display: flex;
+  justify-content: space-evenly;
+}
+.cards >table > tr {
+  border-style: solid;
+}
+.listing-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  padding: 20px;
+}
+.last-img {
+  height: 188px;
+}
+
+/* footer */
+#footer {
+  background: linear-gradient(to right, rgb(5, 5, 5) 0%, rgb(27, 18, 2) 100%);
+  padding: 50px;
+}
+#footer > .header {
+  padding-left: 80px;
+}
+#footer > .header > .rect {
+  background-color: black;
+  width: 90%;
+  height: 2px;
+  margin-top: 50px;
+}
+#footer > .footer-body {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+  color: white;
+}
+#footer > .footer-body > .icons > ul > li {
+  padding-top: 40px;
+  display: inline-block;
+  justify-content: space-evenly;
+}
+#footer > .footer-body > .column > ul > li {
+  display: block;
 }
