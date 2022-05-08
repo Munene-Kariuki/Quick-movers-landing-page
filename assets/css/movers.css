@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: rgb(245, 245, 245);
   padding: 0;
   margin: 0;
 }
@@ -122,5 +122,21 @@ nav > .links > ul > li {
   width: 13%;
   height: auto;
   padding: 10px;
+}
+#details {
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+#details > h6{
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+#details > table > tr > td {
+  width: 20%;
+  border-style: solid;
 }
 
