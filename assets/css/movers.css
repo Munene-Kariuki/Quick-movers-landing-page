@@ -168,3 +168,33 @@ nav > .links > ul > li {
 #desc > .paragraph > p {
   width: 100%;
 }
+
+/* Features */
+
+.check {
+  color: rgb(253, 185, 55);
+}
+#features > .head {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 2px;
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px; 
+}
+#features > .about {
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 50%;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; 
+  display: flex;
+}
+#features > .about > ul > li{
+  display: inline-block;
+  justify-content: space-between;
+}
