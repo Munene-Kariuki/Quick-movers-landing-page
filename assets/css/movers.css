@@ -140,9 +140,23 @@ nav > .links > ul > li {
   padding-bottom: 30px;
   padding-top: 10px;
 }
-#details > table > tr > td {
-  width: 20%;
-  border-style: solid;
+.details-icons{
+  border-top: 1px solid;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  margin: 0px;
+}
+.details-icons > p {
+  border-left: 1px solid;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.details-icons > p:first-child {
+  border: none;
 }
 
 /* Description */
@@ -218,14 +232,7 @@ nav > .links > ul > li {
 .cards {
   border-radius: 20px;
   box-shadow: rgb(225, 225, 225) 0px 0px 0px 0px inset;
-  margin: 30px;
-}
-.cards >table {
-  display: flex;
-  justify-content: space-evenly;
-}
-.cards >table > tr {
-  border-style: solid;
+  /* margin: 30px; */
 }
 .listing-cards {
   display: flex;
@@ -234,9 +241,34 @@ nav > .links > ul > li {
   padding: 20px;
 }
 .last-img {
-  height: 188px;
+  height: 225px;
 }
-
+.cards-icons {
+  border-top: 1px solid;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  margin: 0px;
+}
+.cards-icons > p {
+  border-left: 1px solid;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+.cards-icons > p:first-child {
+  border: none;
+}
+table {
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+table > tr {
+  border-left: 1px solid;
+  padding-left: 10px;
+}
 /* footer */
 #footer {
   background: linear-gradient(to right, rgb(5, 5, 5) 0%, rgb(27, 18, 2) 100%);
@@ -265,7 +297,9 @@ nav > .links > ul > li {
   padding-top: 40px;
   display: inline-block;
   justify-content: space-evenly;
+  padding-right: 20px;
 }
 #footer > .footer-body > .column > ul > li {
-  display: block;
+  display: flex;
 }
+
