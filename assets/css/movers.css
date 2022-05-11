@@ -233,6 +233,7 @@ nav > .links > ul > li {
   border-radius: 20px;
   box-shadow: rgb(225, 225, 225) 0px 0px 0px 0px inset;
   /* margin: 30px; */
+  padding-bottom: -40px;
 }
 .listing-cards {
   display: flex;
@@ -243,7 +244,7 @@ nav > .links > ul > li {
 .last-img {
   height: 225px;
 }
-.cards-icons {
+.card-icons {
   border-top: 1px solid;
   display: flex;
   width: 100%;
@@ -254,9 +255,18 @@ nav > .links > ul > li {
 }
 .cards-icons > p {
   border-left: 1px solid;
+  padding-top: 20px;
   padding-left: 20px;
-  padding-bottom: 10px;
-  margin: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.icon {
+  border-left: 1px solid;
+  padding-left: 25px;
+  padding-top: 15px;
+}
+.icon:first-child{
+  border: none;
 }
 .cards-icons > p:first-child {
   border: none;

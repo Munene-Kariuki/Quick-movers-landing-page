@@ -134,6 +134,36 @@ nav > .links > ul > li > .logIn2 {
   display: flex;
   justify-content: space-evenly;
 }
+.cards {
+  margin-bottom: 0px;
+  padding-bottom: -30px;
+}
+.card-icons {
+  border-top: 1px solid;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  margin: 0px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.body {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+.card-icons > p {
+  border-left: 1px solid;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.card-icons > p:first-child {
+  border: none;
+}
 
 /* footer */
 #footer {
